@@ -1,0 +1,29 @@
+{
+    "name": "denis-kisel/php-html-bootstrap",
+    "description": "Build HTML Bootstrap blocks",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "html",
+        "bootstrap"
+    ],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Denis Kisel",
+            "email": "denis.kisel92@gmail.com",
+            "homepage": "http://digital-elephant.com.ua"
+        }
+    ],
+    "homepage": "https://github.com/denis-kisel/php-html-bootstrap",
+    "autoload": {
+        "psr-4": {
+            "DenisKisel\\HTMLBootstrap\\": "src"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
